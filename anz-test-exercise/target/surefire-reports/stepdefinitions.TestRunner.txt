@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: stepdefinitions.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 31.416 sec <<< FAILURE!
+Check Borrowing estimate(Borrowing calculator)  Time elapsed: 18.164 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<$[479],000> but was:<$[508],000>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepdefinitions.BorrowingCalculatorSteps.i_should_see_the_borrowing_estimate_displayed_as(BorrowingCalculatorSteps.java:69)
+	at ✽.I should see the borrowing estimate displayed as '$479,000'(file:///Users/sangeetha/eclipse-workspace-test/anz-test-exercise/src/test/resources/features/borrowingcalculator.feature:7)
+
